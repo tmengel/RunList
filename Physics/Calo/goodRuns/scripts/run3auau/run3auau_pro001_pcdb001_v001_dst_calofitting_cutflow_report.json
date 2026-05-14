@@ -9,8 +9,8 @@
     "mb_scaled_final": [
       46128699180
     ],
-    "events_initial": 22573208959,
-    "events_final": 21984103709,
+    "events_initial": 19742896507,
+    "events_final": 19218473385,
     "steps": [
       {
         "cut": "runtype in physics",
@@ -27,9 +27,9 @@
         "mb_scaled_removed": [
           2333172041
         ],
-        "events_before": 22573208959,
-        "events_after": 22550397710,
-        "events_removed": 22811249
+        "events_before": 19742896507,
+        "events_after": 19742896507,
+        "events_removed": 0
       },
       {
         "cut": "require_vgtms_all: [5, 8, 9, 10]",
@@ -46,8 +46,8 @@
         "mb_scaled_removed": [
           82884384
         ],
-        "events_before": 22550397710,
-        "events_after": 22550397710,
+        "events_before": 19742896507,
+        "events_after": 19742896507,
         "events_removed": 0
       },
       {
@@ -65,9 +65,9 @@
         "mb_scaled_removed": [
           178222234
         ],
-        "events_before": 22550397710,
-        "events_after": 22550297711,
-        "events_removed": 99999
+        "events_before": 19742896507,
+        "events_after": 19693509093,
+        "events_removed": 49387414
       },
       {
         "cut": "run_length >= 300",
@@ -84,8 +84,8 @@
         "mb_scaled_removed": [
           1064105297
         ],
-        "events_before": 22550297711,
-        "events_after": 22550297711,
+        "events_before": 19693509093,
+        "events_after": 19693509093,
         "events_removed": 0
       },
       {
@@ -103,9 +103,9 @@
         "mb_scaled_removed": [
           21042460
         ],
-        "events_before": 22550297711,
-        "events_after": 22020042150,
-        "events_removed": 530255561
+        "events_before": 19693509093,
+        "events_after": 19241196427,
+        "events_removed": 452312666
       },
       {
         "cut": "livetime(bit=12) >= 0.7",
@@ -122,30 +122,30 @@
         "mb_scaled_removed": [
           32773602
         ],
-        "events_before": 22020042150,
-        "events_after": 21984103709,
-        "events_removed": 35938441
+        "events_before": 19241196427,
+        "events_after": 19218473385,
+        "events_removed": 22723042
       }
     ]
   },
   "post_l0_cutflow": [
     {
       "stage": "Merged: FC \u2229 DAQ(L0) \u2229 PROD",
-      "runs": 2407,
-      "events": 21984103709,
-      "mb_scaled": 36028404214
+      "runs": 1068,
+      "events": 19218473385,
+      "mb_scaled": 16721380883
     },
     {
       "stage": "min_reco_events >= 50,000",
-      "runs": 2398,
-      "events": 21983992196,
-      "mb_scaled": 35925515631
+      "runs": 1068,
+      "events": 19218473385,
+      "mb_scaled": 16721380883
     },
     {
       "stage": "offline status predicates",
-      "runs": 860,
-      "events": 15479061929,
-      "mb_scaled": 13162861475
+      "runs": 847,
+      "events": 16856355498,
+      "mb_scaled": 13085116783
     }
   ]
 }
