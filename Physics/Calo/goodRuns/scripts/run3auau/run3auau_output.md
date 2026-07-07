@@ -17,9 +17,9 @@ L0 Configuration:
 L1 Configuration:
 	QA columns   : emcal, emcal_auto, ihcal, ihcal_auto, mbd, ohcal, ohcal_auto, sepd
 	Offline QA status    : 3 predicates
-		emcal == GOLDEN
-		ohcal == GOLDEN
-		ihcal == GOLDEN
+		emcal_auto == GOLDEN
+		ohcal_auto == GOLDEN
+		ihcal_auto == GOLDEN
 	Triggers     : 12, 12 (including min bias ['12'])
 	Reco min events: 1,000,000
 ================================================
@@ -50,12 +50,12 @@ Stage                                            Runs  Removed    Eff         Ev
 ------------------------------------------------------------------------------------
 Merged: FC ∩ DAQ(L0) ∩ PROD                     2,977        0      - 56,839,494,785
 min_reco_events >= 1,000,000                    2,977        0 100.0% 56,839,494,785
-offline status predicates                       2,588      389  86.9% 49,535,871,400
+offline status predicates                       2,776      201  93.2% 53,007,238,064
 
 == Final Totals ==
-Runs         : 2,588
-Events       : 49,535,871,400
-MB_scaled    : bit 12: 39003554945
+Runs         : 2,776
+Events       : 53,007,238,064
+MB_scaled    : bit 12: 41875724879
 
 == Artifacts ==
 Cutflow report JSON: /sphenix/user/tmengel/software/RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_cutflow_report.json
