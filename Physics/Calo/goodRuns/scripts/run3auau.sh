@@ -11,7 +11,7 @@ mkdir -p "$output_dir"
 MB_TRIG_BIT=12
 
 "$RUNLISTGEN_EXE" --dataset run3auau \
-  --tag new_newcdbtag_v008 \
+  --tag pro001_pcdb001_v001 \
   --dsttype DST_CALOFITTING \
   --subsystems hcal emcal mbd sepd \
   --min_bias_triggers ${MB_TRIG_BIT}  \

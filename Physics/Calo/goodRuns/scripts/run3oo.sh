@@ -27,4 +27,3 @@ MB_TRIG_BIT=12
   --min_reco_events 1_000_000 \
   --l0_report detailed \
   --prefix "$output_dir"
-
