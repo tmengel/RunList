@@ -143,9 +143,9 @@
     },
     {
       "stage": "offline status predicates",
-      "runs": 2776,
-      "events": 53007238064,
-      "mb_scaled": 41875724879
+      "runs": 2588,
+      "events": 49535871400,
+      "mb_scaled": 39003554945
     }
   ]
 }
