@@ -58,8 +58,8 @@ Events       : 53,007,238,064
 MB_scaled    : bit 12: 41875724879
 
 == Artifacts ==
-Cutflow report JSON: /sphenix/user/tmengel/software/RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_cutflow_report.json
+Cutflow report JSON: RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_cutflow_report.json
 
 == Outputs ==
-GRL          : /sphenix/user/tmengel/software/RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_grl.list
-Run details  : /sphenix/user/tmengel/software/RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_run_details.json
+GRL          : RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_grl.list
+Run details  : RunList/Physics/Calo/goodRuns/scripts/run3auau/run3auau_pro001_pcdb001_v001_dst_calofitting_run_details.json
